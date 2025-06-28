@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="username">Enter username</label>
+            <input type="text" placeholder="Enter username" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Enter password</label>
+            <input type="password" placeholder="Enter password" name="password" id="password" required>
+        </div>
+       <div>
+            <label for="phone">Enter phone number</label>
+            <input type="text" placeholder="Enter number" name="phone" id="phone">
+        </div>
+        <!-- Don't keep phone number as type="number". Instead let ur javascript code handle number vlidation -->
+        <div>
+            <label for="score">Enter score</label>
+            <input type="number" id="score">
+        </div>
+        <div>
+            <label for="color">Enter color</label>
+            <input type="color" placeholder="Enter color" name="color" id="color">
+        </div><div>
+            <label for="email">Enter email</label>
+            <input type="email" placeholder="Enter email" name="email" id="email">
+        </div>
+        <div>
+            <label for="file">Enter file</label>
+            <input type="file" name="file" id="file" multiple>
+        </div>    
+            <input type="submit"  name="button" id="button" value="Submit!">
+            <input type="reset"  name="button" id="button" value="Reset!">
+        <!-- Whenever the data is sent it has 2 options get or post get will send data to its page (url) and post will send it in json format    -->
+         <div>
+             <input type="radio"  name="option" id="one" value="1">
+            <label for="one">One</label>
+            <input type="radio"  name="option" id="two" value="2">
+            <label for="two">Two</label>
+        </div>
+        <!-- If u don't add value attribute the value will go empty in backend -->
+        <div>
+            <label for="date">Enter dob</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="checkbox">badminton</label>
+            <input type="checkbox" name="checkbox" id="checkbox" value="1">
+        </div>
+        <div>
+            <label for="checkbox2">cricket</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+        </div>
+        <div>
+            <label for="range">ENter ur age</label>
+            <input type="range" name="range" id="range">
+        </div>
+        <div>
+            <label for="bio">Enter bio:</label>
+            <textarea name="bio" id="bio"></textarea>
+        </div>
+        <div>
+            <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
